@@ -46,7 +46,7 @@ func (pr *HelloRoutrer) Handle(request hiface.IRequest) {
 }
 
 func main() {
-	s := hnet.NewServer("[hinx V0.8]")
+	s := hnet.NewServer("[hinx V1]")
 
 	s.AddRouter(0, &PingRoutrer{})
 
